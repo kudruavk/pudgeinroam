@@ -1,0 +1,42 @@
+.area{
+    width: 1000px;
+    height: 700px;
+    border: 5px solid black;
+    position: relative;
+    background-image: url(https://svirtus.cdnvideo.ru/ssTNyQr_3kR5iOdRkUNLp06NjFM=/0x0:800x498/1200x1200/filters:quality(100)/https://hb.bizmrg.com/cybersportru-media/d0/d00a85ee82e6d75a53f574e19bef902c.png?m=42446bc8bb134d1430d85617768de9d2);
+}
+.knop{
+    width: 50%;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.b{
+    width: 80px;
+    background-color: blue;
+    height: 40px;
+    color: white;
+    margin-bottom:25px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 15%;
+}
+.cont{
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    align-items:center ;
+}
+.kvad{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://www.meme-arsenal.com/memes/b64e741747fdc8a58d7a372c10942b8f.jpg);
+    border-radius: 7%;
+    position: absolute;
+   top: 0;
+   left: 0;
+   cursor: pointer;
+}
